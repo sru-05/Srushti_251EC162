@@ -1,0 +1,215 @@
+$date
+	Fri May 29 23:23:26 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_four_bit_comparator $end
+$var wire 1 ! less $end
+$var wire 1 " greater $end
+$var wire 1 # equal $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$scope module dut $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 ! less $end
+$var wire 4 ( l [3:0] $end
+$var wire 1 " greater $end
+$var wire 4 ) g [3:0] $end
+$var wire 1 # equal $end
+$var wire 4 * e [3:0] $end
+$scope module c0 $end
+$var wire 1 + a $end
+$var wire 1 , b $end
+$var wire 1 - equal_in $end
+$var wire 1 . equal_out $end
+$var wire 1 / greater_in $end
+$var wire 1 0 greater_out $end
+$var wire 1 1 less_in $end
+$var wire 1 2 less_out $end
+$upscope $end
+$scope module c1 $end
+$var wire 1 3 a $end
+$var wire 1 4 b $end
+$var wire 1 5 equal_in $end
+$var wire 1 6 equal_out $end
+$var wire 1 7 greater_in $end
+$var wire 1 8 greater_out $end
+$var wire 1 9 less_in $end
+$var wire 1 : less_out $end
+$upscope $end
+$scope module c2 $end
+$var wire 1 ; a $end
+$var wire 1 < b $end
+$var wire 1 = equal_in $end
+$var wire 1 > equal_out $end
+$var wire 1 ? greater_in $end
+$var wire 1 @ greater_out $end
+$var wire 1 A less_in $end
+$var wire 1 B less_out $end
+$upscope $end
+$scope module c3 $end
+$var wire 1 C a $end
+$var wire 1 D b $end
+$var wire 1 E equal_in $end
+$var wire 1 # equal_out $end
+$var wire 1 F greater_in $end
+$var wire 1 " greater_out $end
+$var wire 1 G less_in $end
+$var wire 1 ! less_out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0G
+0F
+1E
+0D
+0C
+0B
+0A
+0@
+0?
+1>
+1=
+0<
+0;
+0:
+09
+08
+07
+16
+15
+04
+03
+02
+01
+00
+0/
+1.
+1-
+0,
+0+
+bz111 *
+bz000 )
+bz000 (
+b0 '
+b0 &
+b0 %
+b0 $
+1#
+0"
+0!
+$end
+#10000
+0#
+0E
+0>
+0=
+06
+05
+17
+bz000 *
+0.
+bz001 )
+10
+1+
+b1 $
+b1 &
+#20000
+15
+1G
+07
+bz001 *
+1.
+1?
+bz100 (
+1B
+00
+bz010 )
+18
+1<
+0+
+13
+b100 %
+b100 '
+b10 $
+b10 &
+#30000
+0#
+0E
+0>
+0?
+0=
+05
+0G
+08
+06
+17
+bz000 *
+0.
+bz000 (
+0B
+bz001 )
+10
+0"
+14
+1D
+1+
+1;
+1C
+b1110 %
+b1110 '
+b1111 $
+b1111 &
+#40000
+1#
+1E
+1>
+1=
+16
+15
+07
+bz111 *
+1.
+bz000 )
+00
+0<
+0+
+0;
+b1010 %
+b1010 '
+b1010 $
+b1010 &
+#50000
+1?
+0=
+05
+0E
+18
+06
+17
+0.
+1F
+bz000 *
+0>
+1!
+0#
+10
+bz111 )
+1@
+04
+1+
+1;
+0C
+b1000 %
+b1000 '
+b111 $
+b111 &
+#60000
