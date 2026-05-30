@@ -1,0 +1,61 @@
+$date
+	Sat May 30 14:34:55 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_gray_to_7seg $end
+$var wire 7 ! seg [6:0] $end
+$var reg 3 " gray [2:0] $end
+$scope module uut $end
+$var wire 3 # gray [2:0] $end
+$var reg 7 $ seg [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111110 $
+b0 #
+b0 "
+b1111110 !
+$end
+#10
+b110000 !
+b110000 $
+b1 "
+b1 #
+#20
+b1101101 !
+b1101101 $
+b11 "
+b11 #
+#30
+b1111001 !
+b1111001 $
+b10 "
+b10 #
+#40
+b110011 !
+b110011 $
+b110 "
+b110 #
+#50
+b1011011 !
+b1011011 $
+b111 "
+b111 #
+#60
+b1011111 !
+b1011111 $
+b101 "
+b101 #
+#70
+b1110000 !
+b1110000 $
+b100 "
+b100 #
+#80
